@@ -1,0 +1,7 @@
+WIDTH = 500
+HEIGHT = 300
+
+def draw():
+    screen.fill((0, 154, 255))
+    
+while game_has_not_ended
