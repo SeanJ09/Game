@@ -1,0 +1,16 @@
+width = 400
+Height = 400
+score = 0
+game_over = false
+
+burrito = actor("burrito")
+burrito.pos = 100, 100
+
+coin = actor("coin")
+coin.pos = 200, 200
+
+def draw():
+    Screen.fill("green")
+    Fox.draw
+    coin.draw
+    screen.draw.text("Score: " + str(score), color="black", topleft=(10, 10))
